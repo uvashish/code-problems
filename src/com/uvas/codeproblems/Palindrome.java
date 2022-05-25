@@ -7,7 +7,7 @@ package com.uvas.codeproblems;
  * simple program to find if given string is a palindrome
  * 
  */
-public class Plaindrome {
+public class Palindrome {
 
 	public static void main(String[] args) {
 		

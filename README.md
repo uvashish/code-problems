@@ -5,5 +5,5 @@
 ```
 
 ```
-# 2 - find whether a string is a plendrome
+# 2 - find whether a string is a Palindrome
 ```
