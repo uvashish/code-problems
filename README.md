@@ -7,3 +7,7 @@
 ```
 # 2 - find whether a string is a Palindrome
 ```
+
+```
+# 3 - Given array of strings find the largest common prefix
+```
