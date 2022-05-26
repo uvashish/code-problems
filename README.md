@@ -11,3 +11,7 @@
 ```
 # 3 - Given array of strings find the largest common prefix
 ```
+
+```
+# 4 - remove duplicate consecutive chars  from a string and return final string as response
+```
