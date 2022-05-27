@@ -11,7 +11,7 @@ public class RemoveAdjacentDuplicateLetters {
 	public static void main(String[] args) {
 		System.out.println("RemoveKConsecutiveDuplicates");
 		
-		String s = "abbbccddeeeee";
+		String s = "Mississippi";
 //		String s = "aabbcc";
 		
 		System.out.println("input string :: "+s);
@@ -43,10 +43,17 @@ public class RemoveAdjacentDuplicateLetters {
 		while(stack.size() > 0) {
 			result = result+stack.pop();
 		}
+
+		return reverseString(result);
+	}
+	
+	private static String reverseString(String s) {
 		
-		StringBuilder builder = new StringBuilder(result);
-		builder.reverse();
+		String reversed = "";
+		for(int i =s.length(); i >0; i--) {
+			reversed = reversed + s.charAt(i-1);
+		}
 		
-		return builder.toString();
+		return reversed;
 	}
 }

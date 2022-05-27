@@ -14,9 +14,13 @@
 
 ```
 # 4 - remove adjacent duplicated from a string and return final string
+
+```
+```
+# 5 - remove adjacent duplicated from a string without using stack and return final string
 ```
 
 ```
-# 5 - Given a String & number k, remove adjacent duplicates chars of length k from a string & return the final string
+# 6 - Given a String & number k, remove adjacent duplicates chars of length k from a string & return the final string
 ```
 
