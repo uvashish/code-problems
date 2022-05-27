@@ -1,4 +1,4 @@
-# code-problems
+# simple coding practice problems
 
 ```
 # 1 - reverse a string
@@ -24,3 +24,6 @@
 # 6 - Given a String & number k, remove adjacent duplicates chars of length k from a string & return the final string
 ```
 
+```
+# 7 - Evaluate postfix notation
+```
