@@ -12,6 +12,7 @@ public class RemoveTwoConsecutiveDuplicateLetters {
 		System.out.println("RemoveKConsecutiveDuplicates");
 		
 		String s = "abbbccddeeeee";
+//		String s = "aabbcc";
 		
 		System.out.println("input string :: "+s);
 		System.out.println("output string :: "+removeKConsecutiveDuplicates(s));
@@ -28,19 +29,15 @@ public class RemoveTwoConsecutiveDuplicateLetters {
 		}
 		
 		String result = "";
-
 		Stack<Character> stack = new Stack<>();
-		int remainingElementInString  = s.length();
-		
 		int index = 0;
-		while(remainingElementInString > 0) {
+		while(index < s.length()) {
 			if(stack.empty() || !stack.peek().equals(s.charAt(index))) {
 				stack.push(s.charAt(index));
-				index++;
-				remainingElementInString--;
 			}else {
 				stack.pop();
 			}
+			index++;
 		}
 
 		while(stack.size() > 0) {
@@ -52,5 +49,4 @@ public class RemoveTwoConsecutiveDuplicateLetters {
 		
 		return builder.toString();
 	}
-
 }
