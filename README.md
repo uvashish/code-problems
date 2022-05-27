@@ -13,10 +13,10 @@
 ```
 
 ```
-# 4 - remove duplicate consecutive chars from a string and return final string
+# 4 - remove adjacent duplicated from a string and return final string
 ```
 
 ```
-# 5 - Given a String & number k, remove the consecutive duplicate chars of length k from a string & return the final string
+# 5 - Given a String & number k, remove adjacent duplicates chars of length k from a string & return the final string
 ```
 

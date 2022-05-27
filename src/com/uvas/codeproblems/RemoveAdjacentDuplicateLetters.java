@@ -6,7 +6,7 @@ import java.util.Stack;
  * @author uvas
  *
  */
-public class RemoveTwoConsecutiveDuplicateLetters {
+public class RemoveAdjacentDuplicateLetters {
 
 	public static void main(String[] args) {
 		System.out.println("RemoveKConsecutiveDuplicates");
