@@ -1,7 +1,5 @@
 package com.uvas.codeproblems;
 
-import java.util.Stack;
-
 public class RemoveAdjacentDuplicatesWithoutStack {
 	public static void main(String[] args) {
 		System.out.println("RemoveKConsecutiveDuplicates");
