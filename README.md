@@ -51,7 +51,8 @@
 # 14 - find out if given string is plaindrome by removing at most one character
 ```
 ```
-# 15 - 
+# 7 - Convert an infix expression to postfix multiple digits operands
+    - Evaluate the postfix expression with multiple digits operands
 ```
 
 
