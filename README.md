@@ -26,7 +26,7 @@
 
 ```
 # 7 - Convert an infix expression to postfix
-    - Evaluate the postfix expression
+    - Evaluate the postfix expression with single digit operands
 ```
 
 ```
