@@ -9,9 +9,11 @@ public class CountZerosInaNumber {
 	}
 	
 	private static int countNumbersInZero(int number) {
+		
 		if(number == 0) {
 			return 0;
 		}
+		
 		if(number%10 == 0 ) {
 			return 1 + countNumbersInZero(number/10);
 		}else {
